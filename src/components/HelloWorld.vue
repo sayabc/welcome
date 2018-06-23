@@ -1,85 +1,14 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li>
-        <a
-          href="https://vuejs.org"
-          target="_blank"
-        >
-          Core Docs
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://forum.vuejs.org"
-          target="_blank"
-        >
-          Forum
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://chat.vuejs.org"
-          target="_blank"
-        >
-          Community Chat
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
-        >
-          Twitter
-        </a>
-      </li>
-      <br>
-      <li>
-        <a
-          href="http://vuejs-templates.github.io/webpack/"
-          target="_blank"
-        >
-          Docs for This Template
-        </a>
-      </li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li>
-        <a
-          href="http://router.vuejs.org/"
-          target="_blank"
-        >
-          vue-router
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vuex.vuejs.org/"
-          target="_blank"
-        >
-          vuex
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vue-loader.vuejs.org/"
-          target="_blank"
-        >
-          vue-loader
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-        >
-          awesome-vue
-        </a>
-      </li>
-    </ul>
+
+
+    <div class="footer">
+      <h4>Some domains for sale now!</h4>
+      <a class="ft-a" href="//sayabc.app">https://sayabc.app</a>
+      <a class="ft-a" href="//yuewen.app">https://yuewen.app</a>
+      <a class="ft-a" href="//juejin.app">https://juejin.app</a>
+    </div>
   </div>
 </template>
 
@@ -88,7 +17,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to deyesea.com !'
     }
   }
 }
@@ -99,15 +28,19 @@ export default {
 h1, h2 {
   font-weight: normal;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.footer {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+
 }
-li {
+.ft-a {
+  color: aquamarine;
+  font-size: 16px;
+  cursor: pointer;
   display: inline-block;
-  margin: 0 10px;
+  margin-left: 30px;
 }
-a {
-  color: #42b983;
-}
+
 </style>
