@@ -4,6 +4,8 @@
 
 > USE JENKINS TO DEPLOY!
 
+> It will update deyesea.com when master has changed! (Git_hook)
+
 ## Build Setup
 
 ``` bash
