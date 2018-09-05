@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+> USE JENKINS TO DEPLOY!
+
 ## Build Setup
 
 ``` bash
