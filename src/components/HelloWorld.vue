@@ -60,6 +60,7 @@ ul {
   border: 1px solid green;
   border-radius: 6px;
   background: rgba(255, 255, 255, .1);
+  transition: .3s;
 }
 
 </style>
