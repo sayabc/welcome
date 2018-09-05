@@ -35,6 +35,9 @@ export default {
   padding: 0;
   margin: 0;
 }
+.hello {
+  padding-top: 60px;
+}
 h1, h2 {
   font-weight: normal;
 }
@@ -48,11 +51,15 @@ ul {
   list-style-type: none
 }
 .item {
-  border: 1px solid gray;
   text-align: left;
-  padding: 6px 10px;
+  padding: 10px 20px;
   margin-bottom: 20px;
   cursor: pointer;
+}
+.item:hover {
+  border: 1px solid green;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, .1);
 }
 
 </style>
