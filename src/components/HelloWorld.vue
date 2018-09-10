@@ -45,7 +45,7 @@ h1, h2 {
   margin-bottom: 40px;
 }
 .item_container {
-  margin: auto 20px;
+  margin: auto 24%;
 }
 ul {
   list-style-type: none
