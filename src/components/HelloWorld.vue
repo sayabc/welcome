@@ -8,7 +8,7 @@
       </li>
     </ul>
 
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to deyesea.com!',
+      msg: 'Welcome',
       pageList: pageList
     }
   },
