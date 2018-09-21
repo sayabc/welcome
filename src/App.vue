@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <div class="content_header">
-      <div class="c_h_div rot_right">1</div>
-      <div class="c_h_div rot_mid">2</div>
-      <div class="c_h_div rot_left">3</div>
+    <div class="content content_header">
+      <div class="c_h_div rot_right"></div>
+      <div class="c_h_div rot_mid"></div>
+      <div class="c_h_div rot_left">
+        <h3>Deyesea</h3>
+        <p>每一天都是那么美</p>
+      </div>
     </div>
-    <div class="content_main">
+    <div class="content content_main">
       <div class="article_list">
         <router-view/>
       </div>
     </div>
-    <div class="content_footer">
+    <div class="content content_footer">
       footer
     </div>
   </div>
@@ -41,9 +44,14 @@ export default {
   /* background-color:#DBF5F1; */
   color: #000;
 }
-.content_header {
-  width: 90%;
+.content {
+  width: 60%;
   margin: 0 auto;
+}
+.content_header {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 .c_h_div {
   background-color: #EFEFEF;
@@ -54,11 +62,11 @@ export default {
 }
 .rot_mid {
   transform: rotate(-4deg);
-  margin-top: -30px;
+  margin-left: 6px;
 }
 .rot_right {
-  transform: rotate(5deg);
-  margin-top: 90px;
+  transform: rotate(2deg);
+  margin-top: 84px;
   margin-bottom: -200px;
   margin-left: 20px;
 }
@@ -66,6 +74,9 @@ export default {
   margin-top: -200px;
   transform: rotate(-10deg);
   margin-left: -12px;
+  height: 260px;
+  border-bottom: 3px dashed #22C3AA;
+  padding-top: 100px;
 }
 </style>
 

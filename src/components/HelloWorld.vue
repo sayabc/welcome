@@ -45,7 +45,7 @@ h1, h2 {
   margin-bottom: 40px;
 }
 .item_container {
-  margin: auto 24%;
+  /* margin: auto 24%; */
 }
 ul {
   list-style-type: none
@@ -55,6 +55,7 @@ ul {
   padding: 10px 20px;
   margin-bottom: 20px;
   cursor: pointer;
+  border: 1px solid red;
 }
 .item:hover {
   /* border: 1px solid green; */
